@@ -1,0 +1,178 @@
+ * {
+     border: 0;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: 'Roboto Mono', monospace;
+     font-family: 'PT Sans', sans-serif;
+ }
+ 
+ #cabecalho {
+     box-shadow: inset 0 -1.5px 0 0 gainsboro;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ #divCabecalho {
+     margin: 2% 3% 0.5%  5%;
+     padding-bottom: 10px;
+ }
+
+  
+ #tituloLogo {
+    margin-top: 5px;
+    font-weight: bolder;
+    color: #fe595f;
+    font-size: 18pt;
+    font-weight: bolder;
+}
+
+ 
+ #pesquisa {
+     width: 45%;
+     margin-top: 20px;
+     margin-bottom: 15px;
+     margin-left: 6%;
+     border-radius: 10px;
+     box-shadow: 0 1px 4px gainsboro;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+#local{
+    width: 30%;
+}
+
+#data{
+    width: 25%;
+    border-left: gainsboro 1px solid;
+}
+#numHospedes{
+    width: 35%;
+    border-left: gainsboro 1px solid;
+}
+
+
+ #texto {
+     width: 100%;
+     margin-top: 15px;
+     margin-bottom: 10px;
+     font-size: 10pt;
+     text-align: center;  
+     cursor: pointer;
+     outline: none; 
+ }
+
+ .butoesPesquisa{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+    text-align: center;  
+    cursor: pointer;
+    outline: none; 
+    background-color: white;
+ }
+
+.butaoPesquisa{
+    width: 8%;
+    border-left: gainsboro 1px solid;
+ }
+
+ #butaoPesq{
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+
+ }
+.imagemLupa{
+    margin-top: 10px;
+}
+ 
+ #acomodacao {
+     margin: 20px 50px 20px 15px;
+ }
+ 
+ .butaoFiltro {
+     background-color: white;
+     border: black 1px solid;
+     border-radius: 20px;
+     border-color: gainsboro;
+     font-size: 10pt;
+     margin-left: 10px;
+     margin-bottom: 5px;
+     padding: 10px;
+     cursor: pointer;
+     outline: none;
+ }
+
+ #container {
+     margin: 5px 70px 20px 55px;
+ }
+ 
+ #cardsQuartos {
+     display: flex;
+     flex-wrap: wrap;
+     margin-right: 0;
+     margin-left: 0px;
+ }
+ 
+ .card {
+     margin: 1rem .0em 1rem 1em;
+ }
+ 
+ @media screen and (min-width: 40em) {
+     .card {
+         max-width: calc(50% - 1em);
+     }
+ }
+ 
+ @media screen and (min-width: 60em) {
+     .card {
+         max-width: calc(25% - 1em);
+     }
+ }
+ 
+ .redimensionarImagem {
+     width: 100%;
+     height: 65%;
+     border-radius: 5px;
+ }
+
+ #tipoImovel{
+     font-size: 12pt;
+ }
+
+ #nomeImovel{
+    font-size: 15pt;
+ }
+ 
+ #rodape {
+     display: flex;
+     flex-wrap: wrap;
+     border-top: 1px solid gainsboro;
+     margin-left: 55px;
+     margin-right: 70px;
+     margin-bottom: 20px;
+     padding-top: 20px;
+ }
+ 
+ #rodape p a {
+     text-align: left;
+     text-decoration: none;
+     color: black;
+ }
+ 
+ #divTextoRodape {
+     width: 60%;
+ }
+ 
+ #divRedessociais {
+     width: 40%;
+     text-align: right;
+     margin-right: 0px;
+ }
